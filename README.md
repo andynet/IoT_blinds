@@ -93,8 +93,13 @@ function onPageRequest(req, res) {
 }
 ```
 ### Wiring it up
-To connect ESP8266 to the driver of stepper motor find corresponding ports - D5,D12,D13,D14 and connect them to motor driver in1-in4.
-+- pins are to be connected to the power source, also +- pins needs to be connected to DC-to-DC Step Down Module. After powering it up use screw driver to adjust output voltage to 3.3V. Upon finishing connect the out pins from Step Down to VCC,GND of ESP8266.
+To connect ESP8266 to the driver of stepper motor find corresponding ports - D5,D12,D13,D14 and connect them to motor driver in1-in4.  
+
+
++- pins are to be connected to the power source, also +- pins needs to be connected to DC-to-DC Step Down Module.  
+
+After powering it up use screw driver to adjust output voltage to 3.3V. Upon finishing connect the out pins from Step Down to VCC,GND of ESP8266.  
+
 Power Source is 5V as stepper motor is 5v.
 
 ### Gallery
