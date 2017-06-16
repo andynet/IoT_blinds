@@ -6,6 +6,9 @@
 
 ## How to
 ### 3d parts
+List of all 3D printed parts:
+1. Connector adapter
+2. Main box
 
 ### Electronics
 List of needed electronics for this project:
