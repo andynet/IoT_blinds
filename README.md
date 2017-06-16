@@ -10,13 +10,10 @@ In this chapter we provide quick overview how we were able to create IoT Blind C
 ### 3d parts
 List of all 3D printed parts:
 1. Connector adapter
-  this part is used between Stepper Motor and Blind Brightness Stick Controller - [link](https://github.com/andynet/IoT_blinds/blob/master/servo_2_zaluzie1.1.stl)  
-  ![Connector Adapter](https://github.com/andynet/IoT_blinds/blob/master/servo_2_zaluzie1.1.stl "Connector Adapter")  
-
+  this part is used between Stepper Motor and Blind Brightness Stick Controller - [link](https://github.com/andynet/IoT_blinds/blob/master/servo_2_zaluzie1.1.stl)
 
 2. Main box
-Box to cover all electronics and stepper motor - [link](https://github.com/andynet/IoT_blinds/blob/master/servo_2_zaluzie1.1.stl)  
-  ![Connector Adapter](https://github.com/andynet/IoT_blinds/blob/master/servo_2_zaluzie1.1.stl "Connector Adapter")
+Box to cover all electronics and stepper motor - [link](https://github.com/andynet/IoT_blinds/blob/master/servo_2_zaluzie1.1.stl)
 
 ### Electronics
 List of needed electronics for this project:
@@ -96,4 +93,9 @@ function onPageRequest(req, res) {
 }
 ```
 ### Wiring it up
+To connect ESP8266 to the driver of stepper motor find corresponding ports - D5,D12,D13,D14 and connect them to motor driver in1-in4.
++- pins are to be connected to the power source, also +- pins needs to be connected to DC-to-DC Step Down Module. After powering it up use screw driver to adjust output voltage to 3.3V. Upon finishing connect the out pins from Step Down to VCC,GND of ESP8266.
+Power Source is 5V as stepper motor is 5v.
 
+### Gallery
+For more visual information look inside [img](https://github.com/andynet/IoT_blinds/tree/master/img) folder
