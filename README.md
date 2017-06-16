@@ -3,7 +3,7 @@ This is [Digital Fabrication Technology](http://dai.fmph.uniba.sk/courses/dtv/in
 ## What
 As course project we aim to develop Blind Controller which will be controlled via Wi-Fi. This device should be able to control and adjust brightness settings of the blinds on windows.
 ## Why
-Because why not? Humans are a lazy bunch. So why not develop something to help them be more lazy? :)
+Because why not? Humans are a lazy bunch. So why not develop something to help them be more lazy? :)  
 On more serious note: This project will enable us to learn 3d printing techniques, explore electronic world and touch some light software programming. And this project will be really useful for fablab.sk
 ## How to
 In this chapter we provide quick overview how we were able to create IoT Blind Controller.
